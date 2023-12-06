@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>exersis 6</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+    <button onclick="
+      const generratNumber = Math.random()
+      let result =''
+      if(generratNumber <= 1/2){
+        result = 'you win!'
+      }
+      else{
+        result = 'you loss!'
+      }
+
+      alert(`you gusse head. the computer pick: ${generratNumber}.${result}`);
+      ">head</button>
+    <button
+    onclick="
+    const generratNumber = Math.random()
+      let result = ''
+      if(generratNumber > 1/2){
+        result = 'you win!'
+      }
+      else{
+        result = 'you loss!'
+      }
+
+      alert(`you gusse tails. the computer pick: ${generratNumber}.${result}`);
+    ">tails</button>
+    
+    
+    <script>
+     /* let generatNumber = Math.random();
+
+      
+      if(generatNumber <= 1/2 ){
+        result = 'head';
+      }
+      else{
+        result = 'tails';
+      }
+      let guess = '';
+      if(guess = result){
+        console.log(`you win!`)
+       }*/
+
+    </script>
+  </body>
+</html>

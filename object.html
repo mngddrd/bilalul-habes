@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+    
+    
+    <script>
+      /*const product = {
+      name: 'socks',
+      price: '1060'
+      // this code property
+    }
+    console.log(product)
+    console.log(product.name)
+    product.name = 'cotton socks'
+    console.log(product)
+    product.newProrerty = 'tishert'
+    console.log(product)
+    delete product.newProrerty;
+    console.log(product)
+    console.log(typeof product)*/
+
+    const product2 = {
+      name: 'shurt',
+      price: 16067,
+      'delivery-time': '1 day',
+      ['adem']: 'abdurezak',
+      rating:{
+        stars:4.5,
+        count:87
+        
+      },
+      fun: function function1(){
+          console.log('function inside object');
+        }
+    }
+console.log(product2)
+product2.adem 
+    console.log(product2.name)
+    console.log(product2['delivary-quntity'])  
+    
+    console.log(product2['name']);
+    console.log(product2['adem'])
+product2.fun()
+
+//json is not support single cotte!
+//json is not support function!
+//json sintax almost anderstande all programming languge!
+
+  console.log(typeof JSON.stringify(product2));
+
+  console.log(typeof console)
+  console.log(typeof console.log)
+  console.log( JSON.stringify(product2));
+   
+  const jsonStringfiy = JSON.stringify(product2)
+  console.log(JSON.parse(jsonStringfiy))
+
+  console.log('hello'.length)
+  console.log('hello'.toUpperCase())
+  console.log('HELLO'.toLocaleLowerCase())
+
+  const object1 = {
+    message:'hello world'
+  }
+const object2 = object1
+object1.message='hello adem!'
+console.log(object1)
+
+
+const adem2 = {
+  ak:2000,
+}
+
+adem2.ak = 25000;
+console.log(adem2)
+
+
+const production3 = {
+  sope:' by camical ',
+  dateregent: 'created by adem',
+
+}
+
+production3.sope = 'by oxigin element!'
+console.log(production3)
+
+let jilalu  = {
+  omo:2.50,
+  pasta:'by diffult!'
+
+}
+
+jilalu.omo = 300
+console.log(jilalu)
+
+let supermarkatOmmaga = {
+  car:'it expensive',
+  class: 2000,
+  myMimo:'its sring'
+
+}
+
+supermarkatOmmaga.car = 'it chipest';
+supermarkatOmmaga.myMimo = 'not properly use'
+console.log(supermarkatOmmaga)
+
+
+let marefuBeshi = {
+  vpn: 2000,
+  wpn: 'bilal'
+}
+
+  marefuBeshi.vpn = 4000
+
+  console.log(marefuBeshi)
+
+
+
+  kebede = JSON.stringify(marefuBeshi)
+  console.log(JSON.parse(JSON.stringify(marefuBeshi)))
+
+
+const kedir = {
+  baja: 'debebe',
+  yonas: 40000,
+}
+
+abel = JSON.stringify(kedir)
+console.log(abel)
+
+const ethiopia = {
+  baja: 5000,
+  rabit: 'jemal'
+}
+
+const { baja,rabit } = ethiopia;
+// easier way to take pproperties out of an object
+
+const jemal1 = {
+  simply: 5000,
+  jest: 'geles'
+}
+
+const { simply,jest } = jemal1
+console.log(simply )
+console.log(jest)
+
+
+const appartama1 = {
+  jest,
+  method: function doubleA(){
+    console.log('method');
+  }
+}
+console.log(appartama1)
+
+
+
+
+    </script>
+  </body>
+</html>

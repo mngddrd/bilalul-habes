@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>rock paper scissors game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+    <p>Rock Paper Scissors</p>
+    <button onclick="
+    const randomNamumber = Math.random();
+    let moveComputer = '';
+    if(randomNamumber >= 0 && randomNamumber <= 1/3){
+    moveComputer = 'Rock';
+    }
+    else if (randomNamumber > 1/3 && randomNamumber <= 2/3){
+    moveComputer = 'Paper';
+    }
+    else if (randomNamumber > 2/3 && randomNamumber < 1){
+    moveComputer = 'Scissors';
+    }
+    let result = '';
+    if (moveComputer === 'Rock')
+    {
+      result = 'Tie!'
+    }
+    else if (moveComputer === 'Paper'){
+      result = 'you lose!'
+    }
+    else if (moveComputer === 'Scissors'){
+      result = 'you win!';
+    }
+    alert(`you pick rock. computer pick ${moveComputer}.${result}`)
+    ">Rock</button>
+
+    <button onclick="
+     const randomNamumber = Math.random();
+    let moveComputer = '';
+     if (randomNamumber >= 0 && randomNamumber <= 1/3){
+    moveComputer = 'Rock';
+    }
+     else if (randomNamumber > 1/3 && randomNamumber <= 2/3){
+    moveComputer = 'Paper';
+    }
+     else if (randomNamumber > 2/3 && randomNamumber < 1){
+    moveComputer = 'Scissors';
+    }
+    let result = '';
+
+    if (moveComputer === 'Rock')
+    {
+      result = 'you win!';
+
+    }
+    else if (moveComputer === 'Paper'){
+      result = 'Tie!';
+      
+    }
+    else if (moveComputer === 'Scissors'){
+      result = 'you loss!';
+    }
+    alert(`you pick paper. computer pick ${moveComputer}.${result}`)">Paper</button>
+
+    <button onclick="
+    const randomNamumber = Math.random();
+    let moveComputer = '';
+    if(randomNamumber >= 0 && randomNamumber <= 1/3){
+    moveComputer = 'Rock';
+    }
+    else if (randomNamumber > 1/3 && randomNamumber <= 2/3){
+    moveComputer = 'Paper';
+    }
+    else if (randomNamumber > 2/3 && randomNamumber < 1){
+    moveComputer = 'Scissors';
+    }
+    let result = '';
+
+    if (moveComputer === 'Rock')
+    {
+      result = 'you lose!';
+
+    }
+    else if (moveComputer === 'Paper'){
+      result = 'you win!';
+      
+    }
+    else if (moveComputer === 'Scissors'){
+      result = 'Tie!';
+    }
+    alert(`you pick scissors. computer pick ${moveComputer}.${result}`)
+    ">Scissors</button>
+    
+    <script>
+      function pickmoveComputer(){
+        
+
+      }
+    
+    </script>
+  </body>
+</html>

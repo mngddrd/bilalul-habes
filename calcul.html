@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>calcul</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+    <p>
+      <button onclick="console.log(calculat = 0)">c</button>
+      <button onclick="console.log(calculat +='()')">()</button>
+      <button onclick="console.log(calculat += '%')">%</button>
+      <button onclick="consol.log(calculat += '/')">/</button>
+    </p>
+
+    <p>
+      <button onclick="console.log(calculat += 7)">7</button>
+      <button onclick="console.log(calculat +=8)">8</button>
+      <button onclick="console.log(calculat +=9)">9</button>
+      <button onclick="console.log(calculat +='*')">*</button>
+    </p>
+    <p>
+      <button onclick="console.log(calculat += 4)">4</button>
+      <button onclick="console.log(calculat += 5)">5</button>
+      <button onclick="console.log(calculat =+ 6)">6</button>
+      <button onclick="console.log(calculat += '-')">-</button>
+    </p>
+    <button onclick="calculat = calculat + 1;
+      console.log(calculat)">1</button>
+    <button onclick="console.log(calculat += '2')">2</button>
+    <button onclick="console.log(calculat += '3')">3</button>
+    <button onclick="calculat = calculat + '+'">+</button>
+    <button onclick="calculat = eval(calculat);
+    console.log(calculat);
+    ">=</button>
+    <script>
+    let calculat = '';
+    console.log(typeof calculat);
+
+    </script>
+  </body>
+</html>
